@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+Recipe Gallery App
+The Recipe Gallery App is a simple React application that showcases an interactive gallery of recipe images. Users can navigate through the images using "Next" and "Previous" buttons.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Displays recipe images along with their descriptions.
+Allows users to navigate through the images using "Next" and "Previous" buttons.
+Supports boundary checks to prevent navigation beyond the first or last image in the list.
 
-## Available Scripts
+How to Use
+Follow the steps below to use the Recipe Gallery App:
 
-In the project directory, you can run:
 
-### `npm start`
+1. Clone the Repository
+Clone this repository to your local machine using the following command:
+git clone https://github.com/ParysUnangst/recipe-gallery-app.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the Project Directory
+Navigate to the project directory in your terminal:
+cd recipe-gallery-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install Dependencies
+Install the necessary dependencies using npm or yarn:
+npm install
+or
+yarn install
 
-### `npm test`
+4. Add Images
+Add your recipe images to the src/images directory. You can replace the existing sample images (image1.jpg, image2.jpg, etc.) with your own images. Make sure to keep the file names consistent.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Start the Application
+Start the development server to run the application:
+npm start
+or
+yarn start
 
-### `npm run build`
+6. View the Gallery
+Open your web browser and visit http://localhost:3000 to view the Recipe Gallery App. You should see the recipe images along with their descriptions. Use the "Next" and "Previous" buttons to navigate through the images.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additional Notes
+You can customize the list of images and their descriptions by editing the src/imageList.js file.
+Feel free to modify the styles of the components by editing the src/App.css file or adding additional CSS files.
+That's it! You've successfully set up and used the Recipe Gallery App.
